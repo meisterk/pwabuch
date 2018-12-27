@@ -6,8 +6,9 @@
     });
 
     if('serviceWorker' in navigator){
-        console.log("Service Worker ok");
+        navigator.serviceWorker.register('./service-worker.js').then(function(){
+            console.log("Service Worker ok");
+        });
     }else{
-        console.log("Nix sWorker ok");
-    }
+        console.log("Nix sWorker ok");    }
 })();
