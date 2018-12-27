@@ -7,8 +7,8 @@
 
     if('serviceWorker' in navigator){
         navigator.serviceWorker.register('./service-worker.js').then(function(){
-            console.log("Service Worker ok");
+            console.log("Service Worker wurde registriert");
         });
     }else{
-        console.log("Nix sWorker ok");    }
+        console.log("Browser bietet keine Unterstützung für Service Worker");    }
 })();
