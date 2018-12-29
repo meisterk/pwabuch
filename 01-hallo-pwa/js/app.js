@@ -10,5 +10,6 @@
             console.log("Service Worker wurde registriert");
         });
     }else{
-        console.log("Browser bietet keine Unterstützung für Service Worker");    }
+        console.log("Browser bietet keine Unterstützung für Service Worker");
+    }
 })();
