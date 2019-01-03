@@ -1,6 +1,7 @@
 {
   "short_name": "MyApp",
   "name": "My Super App",
+  "description": "Das ist meine super App zur Demonstration der Installierbarkeit von PWAs.",
   "icons": [
     {
       "src": "img/icon-192.png",
