@@ -14,10 +14,10 @@
     }
   ],
   "start_url": "index.html",
-  "background_color": "#3367D6",
+  "background_color": "#123456",
   "display": "standalone",
   "scope": "/",
-  "theme_color": "#3367D6"
+  "theme_color": "#123456"
 }
 
 
